@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "NanumSquareM", "AppleSDGothicNeoL", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #9FADB5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.system-marketing-font {
+  font-family: NanumSquareB;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 33px;
+  letter-spacing: -2%;
+}
+
+.system-title-font {
+  font-family: NanumSquareL;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -1%;
+}
+
+/* .system-title-font {
+  font-family: NanumSquareL;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -1%;
+}
+
+.system-title-font {
+  font-family: NanumSquareL;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -1%;
+}
+
+.system-title-font {
+  font-family: NanumSquareL;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -1%;
+} */
+
+.paragraph-paragraph-font {
+  font-family: AppleSDGothicS;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1F1D1D;
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoB";
+  src: url("./fonts/AppleSDGothic/AppleSDGothicNeoB.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoEB";
+  src: url("./fonts/AppleSDGothic/AppleSDGothicNeoEB.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoM";
+  src: url("./fonts/AppleSDGothic/AppleSDGothicNeoM.ttf");
+}
+
+@font-face {
+  font-family: "AppleSDGothicNeoL";
+  src: url("./fonts/AppleSDGothic/AppleSDGothicNeoL.ttf");
+}
+
+@font-face {
+  font-family: "NanumSquareB";
+  src: url("./fonts/NanumSquare/NanumSquareB.otf");
+}
+
+@font-face {
+  font-family: "NanumSquareEB";
+  src: url("./fonts/NanumSquare/NanumSquareEB.otf");
+}
+
+@font-face {
+  font-family: "NanumSquareL";
+  src: url("./fonts/NanumSquare/NanumSquareL.otf");
+}
+
+@font-face {
+  font-family: "NanumSquareR";
+  src: url("./fonts/NanumSquare/NanumSquareR.otf");
+}

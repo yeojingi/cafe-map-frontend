@@ -1,0 +1,288 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: beige;
+}
+
+#outer-container {
+  width: 100%;
+  height: 100%;
+}
+
+#mobile-version {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 1000px; */
+  height: 100%;
+}
+
+#upper-bar {
+  display: flex;
+  height: 60px;
+  padding: 0px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+#logo {
+  width: 200px;
+  height: 20px;
+  background-color: #0093ED;
+}
+
+#bar-right {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  gap: 20px;
+}
+
+#add-cafe-button {
+  display: flex;
+  flex-direction: row;
+  background-color: #0093ED;
+  width: 100px;
+
+
+  cursor: pointer;
+}
+
+#add-cafe-button:hover {
+  background-color: #ABDFFF;
+}
+
+#hamburger {
+  border: 2px solid #0093ED;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+
+}
+
+#hamburger:hover {
+  background-color: #ABDFFF;
+}
+
+#content-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #7DD8FF; 
+}
+
+#my-location {
+  position: absolute;
+  border: 2px solid #0093ED;
+  border-radius: 100%;
+  background-color: #ffffff;
+  width: 14px;
+  height: 14px;
+  top: 10px;
+  left: 10px;
+
+  cursor: pointer;
+}
+
+#my-location:hover {
+  background-color: #ABDFFF;
+}
+
+#map-container {
+  width: 100%;
+  height: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  background: url(./map.png);
+  background-size: cover;
+}
+
+#shrinkable {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #D6F5FFcc;
+  width: 100%;
+  max-width: 280px;
+  bottom: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px 20px 0px 0px;
+  backdrop-filter: blur(10px);
+
+
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 0.2px solid black;
+  border-bottom: 0.2px solid black;
+}
+
+#filter-container {
+  position: relative;
+  width:100%;
+  /* overflow: scroll; */
+  /* height: 80px; */
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding-left: 10px;
+}
+
+#filter-title {
+  display: none;
+  width: 150px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background-color:#7DD8FF;
+}
+
+#filters {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.filter {
+  display: inline-block;
+  width: 110px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #0093ED;
+  margin-right: 10px;
+  /* 아래 꺼 해줘야 스크롤 나옴 */
+  flex-shrink: 0;
+
+}
+
+.filter-unfolded {
+  display: inline-block;
+  width: 110px;
+  border-radius: 10px;
+  background-color: #0093ED;
+  margin-right: 10px;
+
+  /* 바뀐 거 */
+  height: 110px;
+  /* 아래 꺼 해줘야 스크롤 나옴 */
+  flex-shrink: 0;
+}
+
+#fold-button {
+  position: absolute;
+  right: 10px;
+  transform: translateY(-50%);
+  top:50%;
+  border-radius: 10px;
+  background-color: #7DD8FF;
+  width: 80px;
+  height: 30px;
+
+  cursor: pointer;
+}
+
+#unfolded-button {
+  position: absolute;
+  right: 10px;
+  border-radius: 10px;
+  background-color: #7DD8FF;
+  width: 80px;
+  height: 30px;
+
+  cursor: pointer;
+
+  /* 바뀐 거 */
+  top: 10px;
+}
+
+#fold-button:hover {
+  background-color: #ABDFFF;
+}
+
+#unfolded-button:hover {
+  background-color: #ABDFFF;
+}
+
+#cafe-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 350px;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+#cafe-name {
+  width: 40%;
+  height: 20px;
+  background-color: #7DD8FF;
+}
+
+#cafe-pic-add {
+  position: relative;
+}
+
+#cafe-pic {
+  width: 100%;
+  height: 150px;
+  background: url(./pic.png) no-repeat center center;
+  background-color: #D6F5FF;
+  border-radius: 20px;
+}
+
+#add-button {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  right: 10px;
+  background-color: #0093ED;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+#add-button:hover {
+  background-color: #ABDFFF;
+}
+
+#cafe-keywords {
+  width: 100%;
+  height: 20px;
+  background-color: #7DD8FF;
+}
+
+#cafe-address-button {
+  /* 중앙 정렬 코드 */
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  /* 중앙 정렬 코드 끝 */
+  width: 30%;
+  height: 40px;
+  background-color: #0093ED;
+
+  cursor: pointer;
+}
+
+#cafe-address-button:hover {
+  background-color: #ABDFFF;
+}

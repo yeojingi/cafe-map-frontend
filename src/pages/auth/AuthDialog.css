@@ -1,0 +1,112 @@
+.auth-modal-background {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: scroll; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.auth-modal {
+  background-color: #ffffff;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 32px;
+  padding: 16px 40px;
+  border: 1px solid #888;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#auth-upper-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#auth-title {
+  text-align: center;
+}
+
+#auth-banner {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(90deg, #E0F0FB 10%, #EFF7FC 90%);
+  border-radius: 16px;
+  vertical-align: text-bottom;
+}
+
+#auth-banner-ok {
+  position: absolute;
+  width: 70%;
+  right: -15%;
+  top: -50%;
+}
+
+#auth-banner-caption {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+}
+
+#auth-registration {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+#auth-regist-btn {
+  color: var(--pri);
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+#auth-regist-btn:hover {
+  text-decoration: underline;
+}
+
+#auth-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#auth-input {
+  width: 100%;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  background-color: var(--pri-null);
+  border: none;
+  border-radius: 8px;
+}
+
+#auth-input-btn {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 8px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+  background: var(--btn-filter);
+  border: 3px solid #FFFFFF;
+  box-shadow: 0px 10px 20px rgba(0, 130, 206, 0.16);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+#auth-input-btn:hover {
+  background: var(--pri-null);
+}

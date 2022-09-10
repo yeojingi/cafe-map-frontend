@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: beige;
+  display: block;
+}
+
+/* 여기서 쓰는 100% 값들이 canvas를 꽉 채우게 하나..? */
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: beige;
+  display: block;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: beige;
+  display: block;
+}

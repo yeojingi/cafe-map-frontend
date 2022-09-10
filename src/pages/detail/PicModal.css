@@ -1,0 +1,76 @@
+.pic-modal-background {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: scroll; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.pic-modal {
+  background-color: #ffffff;
+  position: relative;
+  display: flex;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 128px;
+  border: 1px solid #888;
+  border-radius: 15px;
+  width: 80%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+#view-img {
+  border-bottom: #888 solid 1px;
+  width: 100%;
+  text-align: center;
+  padding: 16px 0px;
+  border-radius: 15px 15px 0px 0px;
+
+  cursor: pointer;
+}
+
+#view-img:hover {
+  text-decoration: underline;
+}
+
+#modify-image {
+  width: 100%;
+  border-radius: 0px 0px 15px 15px ;
+
+  font-family: 'NanumSquareOTF';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  padding: 16px 0px;
+
+  text-align: center;
+  color: #E79DAE;
+
+  cursor: pointer;
+}
+
+#modify-image:hover {
+  text-decoration: underline;
+}
+
+#big-img {
+  background-color: #ffffff;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 24px;
+  width: 80%;
+  margin-bottom: 24px;
+}

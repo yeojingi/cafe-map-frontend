@@ -1,0 +1,26 @@
+#button-container {
+  position: relative;
+  padding:0px;
+  transform: translateY(1.5px);
+}
+
+#button:hover {
+  color: #263CDD;
+  background-color: white;
+}
+
+#button {
+  border: solid 1px white;
+  color: white;
+  border-radius: 0;
+  padding: 3px 6px;
+}
+
+#second-layer {
+  height: 3px;
+  width: 90%;
+  border-bottom: solid 1px white;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,50 @@
+#image-outer-container {
+    position: relative;
+    /* cursor: pointer; */
+}
+
+.dropzoneDiv {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border: 1px #C3CED4 solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 3px;
+}
+
+.dropzoneDiv:hover {
+    border: 1px solid orange;
+}
+
+#dropzone-img {
+    width: 100%;
+}
+
+#a {
+    position: relative;
+}
+
+
+#writer-default-camera {
+    position: absolute;
+    z-index: 100;
+    top: 2%;
+    left: 70%;
+    width: 40%;
+  }
+#writer-camera-default-img{
+width: 100%;
+}
+
+#writer-camera {
+position: absolute;
+width: 24%;
+z-index: 100;
+bottom: -30px;
+left: 70%;
+}
+#writer-camera-img{
+width: 100%;
+transform: rotate( -12deg );
+} 

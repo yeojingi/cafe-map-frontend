@@ -1,0 +1,33 @@
+.info-btn {
+  width: 15px;
+  height: 15px;
+  background: url(../../../image/info.svg) no-repeat center center;
+
+  cursor: pointer;
+}
+
+.info-modal {
+  display: none;
+  flex-direction: row;
+  width: 100%;
+  position: absolute;
+  top: -30px;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+  background-color: var(--m500);
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.info-modal-text {
+}
+
+.info-modal-close-btn {
+  cursor: pointer;
+}
+
+.info-modal-close-btn:hover {
+  
+}

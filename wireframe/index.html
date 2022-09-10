@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./modal.css">
+</head>
+<body>
+  <div id="outer-container">
+    <div id="mobile-version"> <!--- 모바일 버전 하는 중이라 달아놓은 거-->
+      <div id="upper-bar">
+        <div id="logo"></div>
+        <div id="bar-right">
+          <div id="add-cafe-button"><a href="create/create_cafe.html">button</a></div>
+          <div id="hamburger"></div>
+        </div>
+      </div>
+      <div id="content-container">
+        <div id="my-location"></div>
+        <div id="map-container">
+          <div id="map"></div>
+        </div>
+        <div id="shrinkable">
+          <div id="filter-container" class="folded">
+            <div id="fold-button"></div>
+            <div id="filter-title"></div>
+            <div id="filters">
+              <div class="filter folded button-1"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+              <div class="filter folded"></div>
+            </div>
+          </div>
+          <div id="cafe-info">
+            <div id="cafe-name"></div>
+            <div id="cafe-pic-add">
+              <div id="cafe-pic"></div>
+              <div id="add-button"></div>
+            </div>
+            <div id="cafe-keywords"></div>
+            <div id="cafe-address-button"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="cafe-detail" class="modal-background">
+        <!-- Modal content -->
+        <div class="modal">
+          <div id="detail-upper-bar">
+            <div id="detail-title"></div>
+          </div>
+          <div id="detail-middle-content">
+            <div id="detail-cafe-info">
+              
+              <div id="detail-cafe-pic-add">
+                <div id="detail-cafe-pic"></div>
+                <div id="detail-add-button"></div>
+              </div>
+              <div id="detail-cafe-name"></div>
+              <div id="detail-cafe-address"></div>
+            </div>
+            <div id="detail-keywords-comments">
+              <div id="tabs">
+                <div id="tab-button-1" class="tab"></div>
+                <div id="tab-button-2" class="tab"></div>
+              </div>
+              <div id="tab-page-1" class="tab-page">
+                <!-- 닫기 버튼 있어야 함 -->
+                <div id="page1-caption"></div>
+                <div id="page1-content">
+                  <!-- 3개 flex -> 4개 flex -->
+                  <div id="keywords-container">
+                    <div class="detail-keywords"><div class="icon"></div><div class="keyword-info"><div class="keyword-name"></div><div class="keyword-vote"></div></div><input type="checkbox" class="vote-button" /></div>
+                    <div class="detail-keywords"><div class="icon"></div><div class="keyword-info"><div class="keyword-name"></div><div class="keyword-vote"></div></div><input type="checkbox" class="vote-button" /></div>
+                    <div class="detail-keywords"><div class="icon"></div><div class="keyword-info"><div class="keyword-name"></div><div class="keyword-vote"></div></div><input type="checkbox" class="vote-button" /></div>
+                    <div class="detail-keywords"><div class="icon"></div><div class="keyword-info"><div class="keyword-name"></div><div class="keyword-vote"></div></div><input type="checkbox" class="vote-button" /></div>
+                    <div class="detail-keywords"><div class="icon"></div><div class="keyword-info"><div class="keyword-name"></div><div class="keyword-vote"></div></div><input type="checkbox" class="vote-button" /></div>
+                    <div id="page1-button"></div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-page-2" class="tab-page">
+                <div id="page2-content">
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                  <div class="comment-container"><div class="comment"></div><div class="comment-id"></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="detail-lower-buttons">
+            <div class="detail-button"></div>
+            <div class="detail-button"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
